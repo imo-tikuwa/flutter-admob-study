@@ -1,16 +1,9 @@
 # flutter_admob_study
 
-A new Flutter project.
+[Google AdMob](https://admob.google.com/intl/ja_ALL/home/)の3つの広告ユニット（バナー、インタースティシャル、リワード）について表示してみたリポジトリです
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ - [google_mobile_ads](https://pub.dev/packages/google_mobile_ads)(0.13.6)パッケージを使用しています
+ - ヘッダーから呼び出すドロワーメニューから各広告のページを表示できます
+ - バナー広告は任意の箇所に埋め込めるようWidgetとしています
+ - インタースティシャルは閉じたタイミングで目的とした動作（今回はダイアログを開く）を行うようにしています
+ - リワードは最後まで閲覧が済んだ際に目的とした動作（今回はページ遷移）を行うようにしています
